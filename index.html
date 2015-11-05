@@ -16,6 +16,7 @@
     <script src="lib/movingObject.js"></script>
     <script src="lib/aliens.js"></script>
     <script src="lib/boss.js"></script>
+    <script src="lib/superboss.js"></script>
     <script src="lib/ship.js"></script>
     <script src="lib/bullet.js"></script>
     <script src="lib/gameView.js"></script>
@@ -49,6 +50,7 @@
         newG.stop();
         newG.reset();
         newG = new AlienDestroyer.GameView(canvasEl);
+        newG.filler();
         game = false;
       };
     </script>
