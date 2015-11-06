@@ -11,6 +11,9 @@
 
   <body>
 
+    <script src="lib/jquery-1.11.3.min.js"></script>
+    <script src="lib/jquery-ui.min.js"></script>
+    <script src="lib/konami.js"></script>
     <script src="lib/util.js"></script>
     <script src="lib/game.js"></script>
     <script src="lib/movingObject.js"></script>
@@ -55,6 +58,21 @@
         newG.filler();
         game = false;
       };
+
+      var easterEgg = new Konami();
+      easterEgg.code = function() {
+        newG.ship.emp = 999;
+        newG.ship.bombs = 999;
+        newG.ship.lives = 999;
+        newG.ship.radius = 0;
+        newG.ship.speed = AlienDestroyer.Ship.SPEED + 3;
+        newG.ship.gunMount = 5;
+        newG.ship.invincible = true;
+        newG.ship.fireSpeed = 10;
+        $( "#canvas" ).effect( "shake" );
+      };
+
+      easterEgg.load();
     </script>
   </body>
 </html>
