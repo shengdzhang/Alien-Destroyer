@@ -2,7 +2,8 @@ h1 {
   font-size: 36px;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
+  padding-top: 30px;
   color: #2CC5DC;
   text-shadow: 2px 2px 2px #3F88BF;
 }
@@ -12,11 +13,12 @@ h1 {
   height: 600px;
   margin: auto;
   border-radius: 5px;
-  border: 2px solid white;
-  background-color: white;
+  border: 1px solid #888;
+  background-color: rgba(204, 204, 204, 0.0);
 }
 
 #start, #reset {
+  margin-top: 50px;
   border: 1px solid black;
   padding: 5px;
   border-radius: 50px;
