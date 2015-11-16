@@ -35,11 +35,8 @@
 
   Ship.prototype.render = function (ctx) {
     var ship_image = new Image();
-    var pos1, pos2;
     if (this.explode) {
       ship_image.src = 'images/ShipExplosion.png';
-      pos1 = this.pos[0] - this.radius;
-      pos2 = this.pos[1] - this.radius;
     } else {
       ship_image.src = 'images/ship.png';
       ctx.fillStyle = "Cornflowerblue";
@@ -56,10 +53,8 @@
         false
       );
       ctx.fill();
-      pos1 = this.pos[0] - 15
-      pos2 = this.pos[1] - 15
     }
-    ctx.drawImage(ship_image, pos1, pos2);
+    ctx.drawImage(ship_image, this.pos[0] - 15, this.pos[1] - 15);
   };
 
   Ship.prototype.power = function (impulse) {
