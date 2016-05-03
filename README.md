@@ -16,3 +16,10 @@ D: Right
 Space: Fire gun  
 J: Fire Bomb  
 K: EMP Flash  
+
+Sample Images:
+
+![Screenshot] (http://res.cloudinary.com/catstagram/image/upload/c_scale,w_600/v1462237088/AlienDestroyer_s9nrui.png)
+
+
+![Screenshot] (http://res.cloudinary.com/catstagram/image/upload/c_scale,w_600/v1462237241/AlienDestroyer2_xnb8qk.png)
