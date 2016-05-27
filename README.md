@@ -19,7 +19,6 @@ K: EMP Flash
 
 Sample Images:
 
-![Screenshot] (http://res.cloudinary.com/catstagram/image/upload/c_scale,w_600/v1462237088/AlienDestroyer_s9nrui.png)
+![Screenshot] (http://res.cloudinary.com/catstagram/image/upload/c_scale,w_600/v1464375749/AlienDestroyer_dqoeek.png)
 
-
-![Screenshot] (http://res.cloudinary.com/catstagram/image/upload/c_scale,w_600/v1462237241/AlienDestroyer2_xnb8qk.png)
+![Screenshot] (http://res.cloudinary.com/catstagram/image/upload/c_scale,w_600/v1464375970/AlienDestroyer2_wjguto.png)
